@@ -1,3 +1,5 @@
+## Validate the given input contains valid pair of brackets.
+
 class Solution:
 	def isValid(self,s):
 		mystack = []
@@ -8,8 +10,8 @@ class Solution:
 			elif item in dict.keys():
 				if(mystack == [] or dict[item] != mystack.pop()):
 					return False
-				else:
-					return False
+			else:
+				return False
 		return mystack==[]		
 
 solution = Solution()

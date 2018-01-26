@@ -15,5 +15,6 @@ class solution:
 
 my_sol = solution()
 input = input("Enter a valid Roman Numeral: ")
+input = input.upper()
 result = my_sol.romantoint(input)
 print(result)

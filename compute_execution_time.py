@@ -1,5 +1,6 @@
 
-""" Let us use timeit module, which measures the execution time of small code snippet"""
+# Let us use timeit module, which measures the execution time of small code snippet
+#Start by importing timeit module
 
 import timeit
 

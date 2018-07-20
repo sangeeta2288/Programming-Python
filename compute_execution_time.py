@@ -1,7 +1,6 @@
 
-# Let us use timeit module, which measures the execution time of small code snippet
 #Start by importing timeit module
-
+# timeit module is helpful to measure execution time of small code snippet
 import timeit
 
 # Compute the time required to create a list[1,2,3,4,5] over a million number of times
